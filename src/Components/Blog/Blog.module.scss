@@ -1,0 +1,53 @@
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .blogContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        gap: 20px;
+padding-bottom: 30px;
+        .blogContainerTop {
+            text-align: center;
+        }
+
+        .blogContainerBottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .blogContainerBottomCard {
+                width: 45%;
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                gap: 20px;
+
+                button {
+                    display: inline-block;
+                    padding: 12px 40px;
+                    font-weight: 700;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: white;
+                    background: linear-gradient(to right, #868FFF, #D396FF);
+                    transition: 0.4s;
+                    border: 1px solid rgb(168, 167, 167);
+
+                    &:hover {
+                        background: white;
+                        transition: 0.4s;
+                        color: rgb(0, 0, 0);
+
+                    }
+                }
+            }
+        }
+    }
+}

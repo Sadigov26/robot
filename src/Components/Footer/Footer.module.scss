@@ -1,0 +1,124 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    background-image: url("../../About/sec/footer-bg.jpg");
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .footerContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .footerContainerTop {
+            display: flex;
+            justify-content: space-between;
+
+            .footerProducts,
+            .footerNewsletter,
+            .footerFeed {
+                flex: 1;
+                margin-right: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+
+                nav ul {
+                    list-style: none;
+                    padding: 0;
+
+                    li {
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        transition: color 0.3s;
+
+                        &:hover {
+                            color: #ccc;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                .nwwİnnput {
+                    margin-top: 20px;
+
+                    input[type="text"] {
+                        width: 300px;
+                        padding: 10px;
+                        border-radius: 15px;
+                        border: 1px solid #555;
+                        margin-bottom: 10px;
+                        height: 40px;
+                    }
+
+                    .button {
+                        display: inline-block;
+                        padding: 12px 40px;
+                        font-weight: 700;
+                        border: none;
+                        border-radius: 100px;
+                        cursor: pointer;
+                        color: white;
+                        background: linear-gradient(to right, #868FFF, #D396FF);
+                        transition: 1.4s;
+                        border: 1px solid rgb(168, 167, 167);
+                        height: 40px;
+
+                        &:hover {
+                            transition: 1.4s;
+                            background: transparent;
+
+
+                        }
+                    }
+                }
+            }
+
+            .footerFeedIg {
+                width: 90%;
+
+                .FeedIg {
+                    margin-right: 10px;
+                    margin-top: 10px;
+
+
+                }
+            }
+        }
+
+        .footerContainerBottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            font-size: 14px;
+
+            .footerBottomSocial {
+                svg {
+                    font-size: 20px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    transition: color 0.3s;
+                    border: 1px solid #000000;
+                    background-color: #000000;
+                    font-size: 36px;
+                    padding: 10px;
+
+                    &:hover {
+                        color: #f9a826;
+                    }
+                }
+            }
+        }
+    }
+}

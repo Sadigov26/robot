@@ -1,0 +1,66 @@
+.siteSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .siteSecContainer {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+
+        .siteSecContainerImg {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .siteSecContainerDesk {
+            display: flex;
+            width: 70%;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            gap: 20px;
+
+            h1 {
+                font-family: "Poppins";
+                font-size: 36px;
+                font-weight: 600;
+            }
+
+            p {
+                font-family: "Poppins";
+                font-size: 14px;
+                font-weight: 300;
+            }
+
+            button {
+                display: inline-block;
+                padding: 12px 40px;
+                font-weight: 700;
+                background-color: transparent;
+                border: none;
+                color: rgb(0, 0, 0);
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.4s;
+                border: 1px solid rgb(168, 167, 167);
+
+                &:hover {
+
+                    transition: 0.4s;
+                    color: white;
+                    background: linear-gradient(to right, #868FFF, #D396FF);
+
+                }
+            }
+        }
+    }
+
+}

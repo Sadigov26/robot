@@ -1,0 +1,25 @@
+.bascet {
+    background-image: url("../../About/Image/banner-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    .bascetContainer {
+        padding-top: 60px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        width: 80%;
+
+        marquee {
+            color: white;
+            font-size: 30px;
+
+        }
+    }
+}

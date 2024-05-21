@@ -1,0 +1,82 @@
+// Products.module.scss
+
+.ProductsSec {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.containerProducts {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containerProductsTitlle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.containerProductsRobots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.robotCard {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        button {
+            transition: 0.4s;
+            color: white;
+            background: linear-gradient(to right, #868FFF, #D396FF);
+        }
+    }
+}
+
+.robotCard img {
+    max-width: 100%;
+    height: 60%;
+    border-radius: 8px;
+}
+
+.robotCard h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.robotCard p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #302f2f;
+}
+
+.robotCard p:last-child {
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 40px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+
+
+}
+
+.Button:hover {
+    background-color: #0056b3;
+}

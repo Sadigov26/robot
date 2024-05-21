@@ -1,0 +1,59 @@
+// Features.module.scss
+
+.features {
+    padding: 50px 0;
+    background-image: url("../../About/Image/feature-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .featuresContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .featuresTitle {
+            text-align: center;
+            margin-bottom: 40px;
+
+            h1 {
+                color: white;
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: white;
+                font-size: 18px;
+            }
+        }
+
+        .featuresCards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 20px;
+
+            .featuresCard {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+
+                    svg {
+                        margin-right: 10px;
+                        font-size: 24px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #333;
+                }
+            }
+        }
+    }
+}
